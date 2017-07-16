@@ -1,0 +1,21 @@
+{
+  "name": "msg-transaction-processor",
+  "version": "0.0.1",
+  "description": "Message Transaction Processor",
+  "main": "./js/index.js",
+  "typings": "./js/index.d.ts",
+  "scripts": {},
+  "author": "Wen Chang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/msg-transaction-processor.git"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.64",
+    "@types/node": "^6.0.73",
+    "@types/shortid": "0.0.29",
+    "lodash": "^4.17.4",
+    "shortid": "^2.2.8"
+  }
+}
