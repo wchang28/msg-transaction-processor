@@ -1,6 +1,6 @@
 {
   "name": "msg-transaction-processor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Message Transaction Processor",
   "main": "./js/index.js",
   "typings": "./js/index.d.ts",

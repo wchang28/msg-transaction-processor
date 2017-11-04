@@ -9,7 +9,7 @@ export interface ITransaction {
     toJSON() : any;
 }
 
-export interface ITransactionReceiver {
+export interface ITransactionReceiver { // the object that recieve the transaction response
     on(event: "transaction-res-rcvd", listener: (TransactionId: TransactionId, result: any) => void) : this;
 }
 

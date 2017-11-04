@@ -16,7 +16,7 @@ var shortid_1 = require("shortid");
 var defautOptions = {
     timeoutMS: 15000
 };
-var MsgTransactionProcessor = (function (_super) {
+var MsgTransactionProcessor = /** @class */ (function (_super) {
     __extends(MsgTransactionProcessor, _super);
     function MsgTransactionProcessor(__receiver, options) {
         var _this = _super.call(this) || this;
@@ -80,3 +80,4 @@ var MsgTransactionProcessor = (function (_super) {
 }(events.EventEmitter));
 function get(receiver, options) { return new MsgTransactionProcessor(receiver, options); }
 exports.get = get;
+//# sourceMappingURL=index.js.map
